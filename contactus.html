@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTHABI PRINTING AND DESIGN - CONTACT US</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <H1>NTHABI PRINTING AND DESIGN</H1>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="services.html">SERVICES</a>
+            <a href="aboutus.html">ABOUT US</a>
+            <a href="contactus.html">CONTACT US</a>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <div class="contact-content">
+            <h2>Get In Touch</h2>
+            <p>Ready to print your ideas? Contact us for quotes and orders!</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Call Us</h3>
+                        <p>+27 72 656 5457</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fab fa-whatsapp"></i>
+                        <h3>WhatsApp</h3>
+                        <p>+27 72 656 5457</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>Motloungnthabiseng421@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="quick-order-form">
+                    <h3><i class="fas fa-print"></i> Quick Order Form</h3>
+                    <p>Tell us what you need printed!</p>
+                    
+                    <form class="simple-form" id="orderForm" action="mailto:motloungnthabiseng421@gmail.com" method="POST" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="fullName">Your Name *</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email (optional)</label>
+                            <input type="email" id="email" name="email" placeholder="For email confirmation">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="productType">What do you want to print? *</label>
+                            <select id="productType" name="productType" required>
+                                <option value="">Choose item</option>
+                                <option value="t-shirts">T-Shirts</option>
+                                <option value="mugs">Mugs</option>
+                                <option value="bags">Bags</option>
+                                <option value="baby-wear">Baby Wear</option>
+                                <option value="bottles">Bottles</option>
+                                <option value="frames">Photo Frames</option>
+                                <option value="patches">Patches</option>
+                                <option value="business-cards">Business Cards</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="quantity">How many? *</label>
+                            <input type="number" id="quantity" name="quantity" min="1" required placeholder="e.g. 10">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="description">What should we print on it? *</label>
+                            <textarea id="description" name="description" rows="3" required placeholder="e.g. Company name, logo, text, design ideas..."></textarea>
+                        </div>
+
+                        <!-- Email subject line -->
+                        <input type="hidden" name="subject" value="New Printing Quote Request - NTHABI PRINTING">
+                        
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Get My Quote
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="why-choose-us">
+                <div class="feature">
+                    <i class="fas fa-clock"></i>
+                    <span>Fast 24hr Response</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-star"></i>
+                    <span>Quality Printing</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-heart"></i>
+                    <span>Local Business</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/19pqUkuBx2/?mibextid=wwXIfr" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/nthabi8659?igsh=MXFlZ3gwNGZvZG5jYw==" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/27726565457" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://vm.tiktok.com/ZSHWCJt4Nw32q-MeuVY/" class="social-icon" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                    
+                </div>
+            </div>
+            <p>&copy; 2025 NTHABI PRINTING AND DESIGN. All Rights Reserved.</p>
+            <p>Legal - Third-Party Services Providers</p>
+            <p>Terms & Conditions Apply</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
