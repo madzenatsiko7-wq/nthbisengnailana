@@ -156,7 +156,7 @@ Please contact this customer within 24 hours with a quote.
             `.trim();
 
             // Create mailto link
-            const mailtoLink = `mailto:madzenatsiko7@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+            const mailtoLink = `mailto:motloungnthabiseng421@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
             
             // Open email client
             setTimeout(() => {
